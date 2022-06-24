@@ -2,10 +2,9 @@
     }
 
 
-.footer-form-field-title{ font-weight: 700;
-    font-size: 14px;
+.footer-form-field-title{
+    @include font (14px,700,16px);
     display: block;
-    line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -21,10 +20,10 @@
 
 .footer-form-box{display: flex;flex-direction: column;width: 570px;}
 
-.footer-form-E_mail{font-size: 16px;
+.footer-form-E_mail{
+    @include font (16px, 400, 20px);
     padding-left: 16px;
     width: 100%;
-    line-height: 20px;
     outline: none;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -40,8 +39,8 @@
     color: rgba(255, 255, 255, 0.6);}
 
 
-.footer-form-button{font-weight: 700;
-    font-size: 16px;
+.footer-form-button{
+    @include font (16px, 700, 30px);
     cursor: pointer;
     border: none;
     line-height: 30px;
@@ -51,7 +50,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;

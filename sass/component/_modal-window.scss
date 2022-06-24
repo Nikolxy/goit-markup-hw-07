@@ -12,9 +12,7 @@
 }
 
 .modal-close-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
     position: absolute;
     top: 8px;
     right: 8px;
