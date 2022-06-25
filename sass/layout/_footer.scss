@@ -1,23 +1,23 @@
-.contact-footer {
+.footer {
     background: #2F303A;
     padding: 60px 0;
 }
 
-.footer-logo {
+.footer__logo {
     @include font (26px, 700, 31px);
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
-.footer-logotype-span {
+.footer__logotype-span {
     @include font (26px, 700, 31px);
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
     color: var(--on-top-color);
 }
 
-.footer-navigation {
+.footer__navigation-link{
     @include font (14px, 400, 24px);
     letter-spacing: 0.03em;
     color: var(--on-top-color);
@@ -28,17 +28,17 @@
     font-style: normal;
 }
 
-.footer-link:not(:first-child) {
+.footer__item:not(:first-child) {
     margin-top: 9px;
 }
 
-.footer-mail,
-.footer-number {
+.footer__mail-link,
+.footer__number-link {
     @include font (14px, 400, 24px);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-  .footer-social-option {
+  .footer__social-title{
     @include font (14px, 700, 16px);
       margin-bottom: 20px;
       letter-spacing: 0.03em;
@@ -46,15 +46,15 @@
       color: var(--on-top-color);
   }
 
-  .footer {
+  .footer__contact {
       margin-right: 70px;
   }
 
-  .footer-box {
+  .footer__social-box {
       margin-right: 93px;
   }
 
-  .footer-list {
+  .footer__main-list {
       display: flex;
       align-items: baseline;
   }

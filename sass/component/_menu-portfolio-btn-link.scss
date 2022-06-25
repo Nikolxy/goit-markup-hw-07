@@ -1,14 +1,14 @@
-.menu-portfolio-btn-list {
+.portfolio__btn-list {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
 }
 
-.menu-portfolio-btn-box:not(:last-child) {
+.portfolio__btn-item:not(:last-child) {
     margin-right: 9px;
 }
 
-.menu-portfolio-btn-link {
+.portfolio__btn {
     @include font (16px, 500, 30px);
     font-family: 'Roboto', sans-serif;
     border: transparent;
