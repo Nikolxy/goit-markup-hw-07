@@ -1,26 +1,33 @@
-.our-team-box{display: flex;margin-top: 50px;}
+.employers__list{display: flex;margin-top: 50px;}
 
-.our-team{background: #f5f4fa;}
+.employers{background: #f5f4fa;}
 
-.employers-card {
+.employers__item {
     background: var(--on-top-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.employers-card-title {
+.employers__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.employers__card {
     padding: 30px 0;
     text-align: center;
 }
 
-.our-team-mame{
+.employers__mame-title{
     @include font (16px, 500, 19px);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
        /*text-align: center;*/
         letter-spacing: 0.03em;
         color: var(--h2-h3-color);}
 
-.our-team-sub-title{margin-top: 10px;margin-bottom: 16px;
-    @include font (16px, 400, 19px);
+.emploers__name-sub-title{margin-top: 10px;margin-bottom: 16px;
+    @include font (16px, 400, 24px);
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--p-a-color);}

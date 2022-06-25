@@ -1,4 +1,4 @@
-.our-company-head {
+.companies__title {
     @include font (36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
@@ -6,14 +6,14 @@
 }
 
 
-.our-team-head {
+.employers__title {
     @include font (36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--h2-h3-color);
 }
 
-.work-sample-title {
+.work-sample__title {
     @include font (36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;

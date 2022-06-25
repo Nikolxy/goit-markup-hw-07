@@ -2,16 +2,20 @@
     padding-top: 0;
 }
 
-.work-sample-list {
+.work-sample__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.work-sample__list {
     display: flex;
     margin-top: 50px;
 }
 
-.work-list-wrapper {
+.work-sample__list-wrapper {
     position: relative;
 }
 
-.work-list-overlay {
+.work-sample__list-overlay {
     position: absolute;
     @extend %align;
     background: rgba(47, 48, 58, 0.8);

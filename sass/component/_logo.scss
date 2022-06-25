@@ -1,4 +1,4 @@
-.header-logo {
+.navigation-header__logo {
     @include font (26px, 700, 36px);
     margin-right: 93px;
     font-family: 'Raleway', sans-serif;
@@ -6,7 +6,7 @@
     color: var(--accent-color);
 }
 
-.header-logotype-span {
+.navigation-header__logotype-span {
     @include font (26px, 700, 36px);
     letter-spacing: 0.03em;
     color: black;

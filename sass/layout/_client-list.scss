@@ -1,17 +1,17 @@
-.client-list {
+.companies__list {
     @extend %align;
     margin-top: 50px;
     
 }
 
-.client-logo {
+.companies__item {
     width: 170px;
     height: 92px;
     &:not(:last-child) {
             margin-right: 30px;}
 }
 
-.client-logo-link {
+.companies__link {
     fill: #AFB1B8;
     width: 100%;
     height: 100%;
