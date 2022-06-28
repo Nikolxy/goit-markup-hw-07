@@ -1,3 +1,10 @@
 .section {
     padding: 94px 0;
 }
+.section__no-padding-top {
+    padding-top: 0;
+}
+
+.section__other-background-modification {
+    background: #f5f4fa;
+}

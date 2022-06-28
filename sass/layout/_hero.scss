@@ -13,7 +13,7 @@
     margin-right: auto;
 }
 
-.hero__main-title {
+.hero__title {
     @include font (44px, 900, 60px);
     box-sizing: border-box;
     width: 696px;
@@ -25,7 +25,7 @@
     color: var(--on-top-color);
 }
 
-.hero__main-btn {
+.hero__btn {
     @include font (16px, 700, 30px);
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;

@@ -1,13 +1,27 @@
-.navigation-header__logo {
-    @include font (26px, 700, 36px);
+.logo {
+    @include font (26px, 700, 31px);
     margin-right: 93px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
-.navigation-header__logotype-span {
-    @include font (26px, 700, 36px);
+.logo__theme-dark {
+    @include font (26px, 700, 31px);
     letter-spacing: 0.03em;
     color: black;
+}
+
+.footer__logo {
+    @include font (26px, 700, 31px);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.footer__theme-light {
+    @include font (26px, 700, 31px);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--on-top-color);
 }

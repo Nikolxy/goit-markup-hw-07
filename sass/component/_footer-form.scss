@@ -1,7 +1,6 @@
 .footer-form{display: flex;flex-direction: row;
     }
 
-
 .footer-form__field-title{
     @include font (14px,700,16px);
     display: block;
@@ -32,11 +31,12 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
             border-radius: 4px;
-    
+
+            &::placeholder {
+                    text-transform: uppercase;
+                    color: rgba(255, 255, 255, 0.6);}
 }
-.footer-form__E-mail::placeholder {
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.6);}
+
 
 
 .footer-form__button{

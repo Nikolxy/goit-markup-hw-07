@@ -1,13 +1,13 @@
-.main-menu__list {
+.benefits {
     display: flex;
     box-sizing: border-box;
 }
 
-.main-menu__item:not(:last-child) {
+.benefits__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.main-menu__icon-container {
+.benefits__icon-container {
     background-color: #F5F4FA;
     height: 120px;
     width: 270px;
@@ -17,7 +17,7 @@
     border-radius: 4px;
 }
 
-.main-menu__title {
+.benefits__title {
     @include font (14px, 700, 16px);
     margin-top: 30px;
     letter-spacing: 0.03em;
@@ -25,7 +25,7 @@
     color: var(--h2-h3-color);
 }
 
-.main-menu__sub-title {
+.benefits__text{
     @include font (14px, 400, 24px);
     margin-top: 10px;
     letter-spacing: 0.03em;
